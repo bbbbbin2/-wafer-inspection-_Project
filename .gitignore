@@ -9,9 +9,7 @@ data/
 *.pkl
 
 # 3. Logs and Outputs (로그 및 결과물 제외)
-logs/
 runs/
-results/
 *.log
 
 # 4. System & License files (시스템 및 라이선스 문서 제외)

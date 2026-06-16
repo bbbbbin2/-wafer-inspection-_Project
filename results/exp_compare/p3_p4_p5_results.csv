@@ -1,0 +1,4 @@
+Preprocessing,Best Accuracy,Best F1-score,Training Time(min)
+P3 - Resize + Median Filter + Normalization (중앙값 필터),0.9698943797702567,0.836727733883465,7.088905652364095
+P4 - Resize + Data Augmentation + Normalization (증강),0.9691234291881891,0.8360237274405734,7.156445797284444
+P5 - Resize + Normalization + Balanced Class Weight (클래스 가중치),0.954282630483386,0.8004931562789166,7.183165498574575

@@ -1,0 +1,5 @@
+Preprocessing_Method,Best_Accuracy,Best_F1_Score,Training_Time(min)
+P2 - Resize + Normalization (Baseline),0.9715519235217023,0.8477820360849626,5.367117933432261
+P3 - Resize + Median Filter + Normalization (Median Filter),0.9717446611672191,0.8365285084634579,5.365056109428406
+P4 - Resize + Data Augmentation + Normalization (Augmentation),0.9722843265746666,0.8363114117751507,5.372566552956899
+P5 - Resize + Normalization + Balanced Class Weight (Class Weight),0.9586385012720685,0.82856158095866,5.35572628180186
