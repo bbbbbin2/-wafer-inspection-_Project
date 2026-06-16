@@ -1,0 +1,36 @@
+# 1. Virtual Environments (가상환경 제외)
+myenv/
+py310env/
+oldenv/
+python/
+
+# 2. Datasets (대용량 데이터 제외)
+data/
+*.pkl
+
+# 3. Logs and Outputs (로그 및 결과물 제외)
+logs/
+runs/
+results/
+*.log
+
+# 4. System & License files (시스템 및 라이선스 문서 제외)
+BUILD_FROM_SOURCE_PACKAGES_LICENCES
+LINUX_PACKAGES_LICENSES
+LINUX_PACKAGES_LIST
+PYTHON_PACKAGES_LICENSES
+THIRD_PARTY_SOURCE_CODE_URLS
+nvidia-acknowledgements
+OSSNvidiaDriver_*
+
+# 5. Linux System & User Environment Files (시스템 및 사용자 환경 파일 제외)
+.bash_history
+.bash_logout
+.bashrc
+.cache/
+.gnupg/
+.jupyter/
+.profile
+.python_history
+.ssh/
+.sudo_as_admin_successful
